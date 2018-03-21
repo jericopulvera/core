@@ -44,6 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
+                "Laracommerce\\Core\\LaracomCoreServiceProvider",
                 "Laracommerce\\Core\\Providers\\GlobalTemplateServiceProvider",
                 "Laracommerce\\Core\\Providers\\RepositoryServiceProvider"
             ],
