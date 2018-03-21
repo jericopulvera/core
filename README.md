@@ -22,6 +22,17 @@
 
 [Demo](https://shop.laracom.net)
 
+## Install
+
+Install package and publish the migrations
+
+```bash
+composer require laracommerce/core
+php artisan vendor:publish --provider="Laracommerce\Core\LaracomCoreServiceProvider" --tag="migrations"
+
+```
+
+
 #### Features
 
 - Products
